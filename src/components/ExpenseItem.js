@@ -10,8 +10,8 @@ function ExpenseItem() {
 
         <div className="expense-item">
             <div>{expenseDate.toISOString()}</div>
-            <div>
-                <h2 className="expense-item__description">{expenseTitle}</h2>
+            <div className="expense-item__description">
+                <h2>{expenseTitle}</h2>
                 <div className="expense-item__price">{expenseAmount}</div>
             </div>
         </div>)
